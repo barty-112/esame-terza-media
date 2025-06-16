@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tesina – Evoluzione e Innovazione</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: auto;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #007991, #78ffd6);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      animation: fadeIn 1s ease;
+    }
+
+    nav {
+      background: #222;
+      overflow-x: auto;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: nowrap;
+      list-style: none;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 14px 20px;
+      color: white;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background: #444;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      background: white;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 900px;
+      opacity: 1;
+      transition: opacity 0.5s ease;
+    }
+
+    section h2 {
+      color: #007991;
+      margin-bottom: 10px;
+      font-size: 1.6em;
+    }
+
+    section p {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #007991;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.95em;
+    }
+
+    .fade-out {
+      opacity: 0 !important;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+      }
+
+      section {
+        margin: 20px 10px;
+      }
+
+      section h2 {
+        font-size: 1.3em;
+      }
+
+      section p {
+        font-size: 0.95em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Esame di Terza Media</h1>
+    <p>Evoluzione e Innovazione – Un viaggio tra le materie e il futuro</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#storia">Storia</a></li>
+      <li><a href="#scienze">Scienze</a></li>
+      <li><a href="#tecnologia">Tecnologia</a></li>
+      <li><a href="#civica">Civica</a></li>
+      <li><a href="#italiano">Italiano</a></li>
+      <li><a href="#musica">Musica</a></li>
+      <li><a href="#fisica">Fisica</a></li>
+      <li><a href="#geografia">Geografia</a></li> 
+      <li><a href="#francese">Francese</a></li>
+      <li><a href="#inglese">Inglese</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="storia">
+      <h2>Storia – La Seconda Rivoluzione Industriale</h2>
+      <p>L’introduzione dell’elettricità, del motore a scoppio e del telegrafo ha rivoluzionato fabbriche, città e comunicazioni. Questo ha posto le basi per le moderne tecnologie digitali.</p>
+    </section>
+
+    <section id="scienze">
+      <h2>Scienze – Il cervello come un computer</h2>
+      <p>Il cervello elabora informazioni come un computer: i neuroni trasmettono segnali elettrici, la memoria è simile a RAM e hard disk, e il pensiero somiglia all'elaborazione dati. Capire il cervello aiuta anche a progettare l’intelligenza artificiale.</p>
+    </section>
+
+    <section id="tecnologia">
+      <h2>Tecnologia – Parlare con le macchine</h2>
+      <p>I linguaggi di programmazione permettono di comunicare con i computer. Con codice come Python possiamo creare app, giochi e persino controllare robot!</p>
+    </section>
+
+    <section id="civica">
+      <h2>Educazione Civica – Sicurezza digitale</h2>
+      <p>Proteggere i dati online è fondamentale: password sicure, attenzione ai link sospetti, e rispetto della privacy rendono Internet un luogo più sicuro per tutti.</p>
+    </section>
+
+    <section id="italiano">
+      <h2>Italiano – Italo Calvino e la tecnologia</h2>
+      <p>Calvino, nelle sue Cosmicomiche, usa la scienza come ispirazione. Unisce fantasia e teoria in racconti che ci fanno pensare al nostro rapporto con l’innovazione.</p>
+    </section>
+
+    <section id="musica">
+      <h2>Musica – Dalla dodecafonia ai software</h2>
+      <p>Schönberg ha rivoluzionato la musica classica. Oggi possiamo comporre al computer, con programmi che ci permettono di essere musicisti digitali!</p>
+    </section>
+
+    <section id="fisica">
+      <h2>Educazione Fisica – Biomeccanica e robot</h2>
+      <p>La biomeccanica studia il nostro corpo. Grazie ad essa, i robot imitano i nostri movimenti, aiutando anche in campo medico e sportivo.</p>
+    </section>
+
+    <section id="geografia">
+      <h2>Geografia – Nazioni digitali</h2>
+      <p>🇮🇳 <strong>India:</strong> è oggi un punto di riferimento mondiale per lo sviluppo software. Città come Bangalore ospitano aziende informatiche internazionali. Il progetto <em>“Digital India”</em> punta a estendere internet anche nelle zone più povere, riducendo il divario digitale.</p>
+      <p><strong>Conclusione:</strong> Questi Paesi dimostrano come tecnologia e geografia siano collegate. Capire dove e come si sviluppa l’innovazione ci aiuta a comprendere meglio il mondo in cui viviamo.</p>
+    </section>
+
+    <section id="francese">
+      <h2>Francese – La langue dans l’innovation</h2>
+      <p>La Francia è attiva nel campo tecnologico, con città come Parigi che ospitano startup e laboratori. La lingua francese rimane importante nella diplomazia, nella cultura e anche nel lessico scientifico.</p>
+    </section>
+
+    <section id="inglese">
+      <h2>Inglese – From Shakespeare to Hip Hop</h2>
+      <p>Shakespeare used rhythm in his poems, like in Romeo and Juliet. The rapper Akala noticed this and in 2008 founded The Hip-hop Shakespeare Company to help young people learn poetry and music.
+Akala is a British artist who mixes rap, rock, and stories.
+In the end, hip hop means smart movement: hip = smart, hop = movement.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Realizzato da Savà Bartolo – Classe 3ª Media</p>
+  </footer>
+
+  <script>
+    const links = document.querySelectorAll("nav a");
+    const sections = document.querySelectorAll("main section");
+
+    links.forEach(link => {
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute("href").substring(1);
+        const targetSection = document.getElementById(targetId);
+
+        sections.forEach(section => section.classList.add("fade-out"));
+
+        setTimeout(() => {
+          targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+          setTimeout(() => {
+            sections.forEach(section => section.classList.remove("fade-out"));
+          }, 500);
+        }, 300);
+      });
+    });
+  </script>
+
+</body>
+</html>
